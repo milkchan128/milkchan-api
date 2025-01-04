@@ -1,0 +1,19 @@
+name: milkchan-api
+version: '1.0.0'
+main: org.apiv1.milkchanApi.MilkchanApi
+api-version: '1.21'
+prefix: [ APIv1 ]
+authors: [ 밀크찬 ]
+description: 밀크찬 API 플러그인입니다.
+website: https://api.milkchan.xyz
+commands:
+  pvp:
+    description: PVP를 키고 끌수 있습니다.
+    usage: /pvp <on|off>
+    premission: milkchanapi.pvp.use
+    permission-message: "&c권한이 없습니다. 관리자에게 문의하세요."
+  uc:
+    description: config.yml을 리로드하는 명령어입니다.
+    usage: /uc reload
+    permission: milkchanapi.config.reload
+    permission-message: "&c권한이 없습니다. 관리자에게 문의하세요."

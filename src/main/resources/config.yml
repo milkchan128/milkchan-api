@@ -1,0 +1,7 @@
+# config.yml
+
+# 알수없는 명령어 메시지 커스텀
+unknown-command-message: "&4&l[!] &c알수없는 명령어 입니다. &7&oby milkchan128"
+
+# 수정하지마세요.
+config-version: 1.0.0
