@@ -7,7 +7,7 @@
 
 1. 알수없는 명령어를 입력했을때 표시되는 메시지 커스텀 가능
 2. /pvp <on|off> 으로 글로벌 PVP를 켜기 및 끄기 가능
-3. /api reload 로 config.yml 파일 리로드 가능
+3. /uc reload 로 config.yml 파일 리로드 가능
 
 
 Copyright (c) 2025 milkchan128
